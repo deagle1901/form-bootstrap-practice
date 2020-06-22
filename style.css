@@ -1,0 +1,43 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./mount.jpg");
+    
+    
+}
+
+
+.container{
+
+    top: 0;
+    background: whitesmoke;
+    padding: 10%;
+    margin: 10% auto auto 25%;
+    width: 50%;
+    border: 2px solid blue;
+    border-radius: 20px;
+    
+}
+.getHead h1{
+  position: absolute;
+  margin-top: -87px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.getHead h1:hover{
+    transition-duration: .6s;
+    color: dodgerblue;
+}
+.navbar-brand.head{
+    color: white;
+}
+.navbar-brand.test{
+    color: white;
+
+}
+.navbar-brand.test:hover{
+    color: dodgerblue;
+    transition-duration: 0.7s;
+}
